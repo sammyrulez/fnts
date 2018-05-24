@@ -1,0 +1,24 @@
+{
+  "name": "fnts",
+  "version": "1.0.0",
+  "description": "Functional typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammyrules/fnts.git"
+  },
+  "keywords": [
+    "typescript",
+    "functional",
+    "fn"
+  ],
+  "author": "Sam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammyrules/fnts/issues"
+  },
+  "homepage": "https://github.com/sammyrules/fnts#readme"
+}
