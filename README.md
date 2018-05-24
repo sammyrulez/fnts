@@ -1,0 +1,2 @@
+TypeScript Functional Programming experiments
+=============================================
