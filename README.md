@@ -1,6 +1,12 @@
 TypeScript Functional Programming experiments
 =============================================
 
+[![Build Status](https://travis-ci.org/sammyrulez/fnts.svg?branch=master)](https://travis-ci.org/sammyrulez/fnts)
+
+A library to ease _functional_ style in TypeScript development
+
+___
+
 ## Curry ##
 
 Currying is when you break down a function that takes multiple arguments into a series of functions that take part of the arguments.
