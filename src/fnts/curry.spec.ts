@@ -12,7 +12,8 @@ describe('Add function', () => {
         return x + y;
     }
     const addc = curry(add);
-    expect(addc(1)(2)).to.equal(add(1,2));
+    const addOne = addc(1);
+    expect(addOne(2)).to.equal(add(1,2));
        
 
   });
