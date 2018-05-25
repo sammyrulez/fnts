@@ -4,6 +4,9 @@
   "description": "Functional typescript",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install",
+    "build": "tsc",
+    "build-watch": "tsc --watch",
     "test": "cross-env TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' mocha -r ts-node/register -r ignore-styles -r jsdom-global/register src/**/*.spec.ts"
   },
   "repository": {
