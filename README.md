@@ -14,7 +14,7 @@ import { curry } from './curry';
 
 const curriedAdd = curry(add); //curry takes a function and returns a curried version
 const addOne = curriedAdd(1); // with the curried version you can build new functions with fixed parameters
-addOne(2) // return 3, just like you call add(1,2)
+addOne(2) // returns 3, just like you call add(1,2)
 
 ```
 
