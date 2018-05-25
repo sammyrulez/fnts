@@ -35,7 +35,10 @@ const maybeOne:Option<number> = some(1) // If you want to wrap a value
 
 const maybeNot:Option<number> = None # // If you want to rapresent the absence of a value
 
-function findUser(userId:number ): Option<User> { // a method that will retur a User if one with the given userId exists
+function findUser(userId:number ): Option<User> { 
+    // a method that will returns a User if one with the given userId exists
+....
+}
 
 
 ```
