@@ -22,3 +22,21 @@ This implementation works with functions with up to 4 parameters.
 
 *Credits:* Erwin Poeze (donnut) [gist](https://gist.github.com/donnut/fd56232da58d25ceecf1) and  the comment by waldogit
 ___
+
+## Option Monad ##
+
+Monad is a concept, an abstract interface if you will, that simply defines a way of composing data.
+
+Option supports composition via _flatMap_, and that's pretty much everything that is needed to wear the "monad badge".
+
+
+```javascript
+const maybeOne:Option<number> = some(1) // If you want to wrap a value 
+
+const maybeNot:Option<number> = None # // If you want to rapresent the absence of a value
+
+function findUser(userId:number ): Option<User> { // a method that will retur a User if one with the given userId exists
+
+
+```
+
