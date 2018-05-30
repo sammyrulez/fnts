@@ -36,9 +36,8 @@
     "reporter": [
       "html"
     ],
-    "all": true  
+    "all": true
   },
-
   "bugs": {
     "url": "https://github.com/sammyrules/fnts/issues"
   },
@@ -47,6 +46,7 @@
     "@types/chai": "^4.1.3",
     "@types/mocha": "^5.2.0",
     "chai": "^4.1.2",
+    "coveralls": "^3.0.1",
     "cross-env": "^5.1.6",
     "ignore-styles": "^5.0.1",
     "jsdom": "^11.11.0",
