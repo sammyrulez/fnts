@@ -62,7 +62,10 @@ export function none<T>():Option<T> {
 }
 
 export function some<T>(value :T):Option<T> {
-    return new Some(value)
+    if(value === null || value === undefined)
+         return new None()
+    else
+         return new Some(value)
 }
 
 
