@@ -46,6 +46,12 @@ function findUser(userId:number ): Option<User> {
 ....
 }
 
+ function authenticate(user:User):Option<User>{
+     // authenticate a user if enabled
+     ....
+}
+const maybeUser : Option<User> = findUser("lenny").flatMap(authenticate)
+    // Some authenticated user or None
 
 ```
 
