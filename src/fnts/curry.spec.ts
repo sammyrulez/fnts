@@ -61,7 +61,7 @@ describe('Add function', () => {
     const zeroc = curry(zero);
     expect(zero()).to.equal(zeroc(1));
 
-    // const fiverc = curry(fiver); <-- do not compile
+    // const fiverc = curry(fiver); <-- do not compilegit 
 
 
     
