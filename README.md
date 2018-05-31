@@ -3,6 +3,8 @@ TypeScript Functional Programming experiments
 
 [![Build Status](https://travis-ci.org/sammyrulez/fnts.svg?branch=master)](https://travis-ci.org/sammyrulez/fnts)
 
+[![Coverage Status](https://coveralls.io/repos/github/sammyrulez/fnts/badge.svg?branch=coverage)](https://coveralls.io/github/sammyrulez/fnts?branch=coverage)
+
 A library to ease _functional_ style in TypeScript development
 
 ___
