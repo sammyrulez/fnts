@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import 'mocha';
 import { Either} from './either'
 
-describe('Add function', () => {
+describe('An Either ', () => {
 
     it('should map right values', () => {
      
