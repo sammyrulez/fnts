@@ -55,3 +55,23 @@ const maybeUser : Option<User> = findUser("lenny").flatMap(authenticate)
 
 ```
 
+## Either Container ##
+
+ Either<L,R> represents a value of one of two possible types (a disjoint union.) An instance of Either is either an instance left class (L) or right class (R).
+
+
+```javascript
+
+const imRight = Either.right(2);
+imRight.map(x =>1+ x) // returns  Either.right(3)
+
+const imLefty = Either.left(0);
+
+imLefty.map(x =>1+ x) // returns  Either.left(0)
+
+//Eitherpolymorph into an Option
+const imAlsoRight = Either.right(2);
+imAlsoRight.map(x =>1+ x).getAsOption().getOrElse(0) // returns 3
+
+
+```

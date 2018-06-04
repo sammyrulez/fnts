@@ -4,7 +4,7 @@ import 'mocha';
 
 
 
-describe('Add function', () => {
+describe('Curry support', () => {
 
   it('should return curried Add function', () => {
    
