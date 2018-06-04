@@ -57,7 +57,8 @@ const maybeUser : Option<User> = findUser("lenny").flatMap(authenticate)
 
 ## Either Container ##
 
- Either<L,R> 
+ Either<L,R> represents a value of one of two possible types (a disjoint union.) An instance of Either is either an instance left class (L) or right class (R).
+
 
 ```javascript
 
